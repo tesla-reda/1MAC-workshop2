@@ -1,0 +1,62 @@
+
+body {
+  font-family: Reenie Beanie;
+  background-color: darkgray;
+}
+a {
+  text-decoration-line: none;
+}
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+}
+p {
+  font-size: 1.6em;
+  color: black;
+}
+.notes {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.box1 {
+  background-color: lightgreen;
+  transform: rotate(10deg);
+}
+.box2 {
+  background-color: yellow;
+  transform: rotate(-10deg);
+}
+.box3 {
+  background-color: lightblue;
+  transform: rotate(10deg);
+}
+.box4 {
+  background-color: yellow;
+  transform: rotate(-10deg);
+}
+.box5 {
+  background-color: lightgreen;
+  transform: rotate(10deg);
+}
+.box6 {
+  background-color: yellow;
+  transform: rotate(-7deg);
+}
+.box7 {
+    background-color: lightblue;
+    transform: rotate(10deg);
+}
+.box8 {
+  background-color: lightgreen;
+  transform: rotate(-7deg);
+}
